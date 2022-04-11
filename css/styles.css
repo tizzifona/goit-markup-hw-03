@@ -127,6 +127,7 @@ nav .current {
   cursor: pointer;
   min-width: 200px;
   border-radius: 4px;
+  padding: 10px 32px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -263,6 +264,7 @@ footer ul {
   color: var(--main-text-color);
   background-color: var(--light-grey-bg);
   border-radius: 4px;
+  padding: 6px 22px;
   margin-bottom: 50px;
 }
 .portfolio-button:not(:last-child) {
