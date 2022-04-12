@@ -250,7 +250,9 @@ footer {
   font-weight: 400;
   line-height: 1.71;
   color: var(--white-text-color);
-  margin-bottom: 9px;
+}
+.address-item:not(:last-child){
+margin-bottom: 9px;
 }
 footer a {
   font-style: normal;
@@ -275,7 +277,6 @@ footer a {
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 .portfolio-button:not(:last-child) {
   margin-right: 8px;
@@ -287,6 +288,7 @@ footer a {
 }
 .portfolio-btns {
 text-align: center;
+margin-bottom: 50px;
 }
 .portfolio-section h2 {
   font-weight: 700;
